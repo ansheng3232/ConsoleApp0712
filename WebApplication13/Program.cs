@@ -5,8 +5,11 @@ builder.Services.AddRazorPages();
 //12341234
 //12341234
 //12341234
-var app = builder.Build();
+//12341
 //12
+//12341
+var app = builder.Build();
+//1213
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
