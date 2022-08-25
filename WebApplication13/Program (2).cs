@@ -2,14 +2,9 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
-//1234123412
 //12341234
-//12341234
-//12341
-//12
-//12341
 var app = builder.Build();
-//1213
+//12
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
@@ -17,7 +12,7 @@ if (!app.Environment.IsDevelopment())
     // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
-//
+
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 
